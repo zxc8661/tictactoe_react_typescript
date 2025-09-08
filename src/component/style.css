@@ -1,0 +1,49 @@
+/*Tamplate.css*/
+.basicTemplate{
+    width: 400px;
+    height: 600px;
+
+    position: relative;
+    display: flex;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.04);
+    margin: 50px auto;
+
+    flex-direction: column;
+    color: #000;
+}
+
+
+
+/*board*/
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 400px;
+    height: 400px;
+
+}
+
+
+/*****tail*/
+.tail{
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+}
+
+
+/*bottom*/
+.bottom{
+    display :flex;
+    justify-content : center;
+    gap: 20px;
+
+    margin-top: 50px;
+}

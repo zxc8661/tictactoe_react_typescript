@@ -40,3 +40,12 @@
 .read-the-docs {
   color: #888;
 }
+
+/* App.css */
+body {
+  height: 100vh;      /* 전체 높이 */
+  display: flex;
+  justify-content: center; /* 가로 중앙 */
+  align-items: center;     /* 세로 중앙 */
+  
+}
